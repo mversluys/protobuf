@@ -163,6 +163,9 @@ project 'google-protoc'
 	}
 	links { 'google-protobuf' }
 
+
+ghp.export_includedirs('src')
+
 ghp.export_project('google-protobuf-lite', 'lib-lite')
 ghp.export_project('google-protobuf', 'lib')
 ghp.export_project('google-protoc', 'compiler')
