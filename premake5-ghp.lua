@@ -93,6 +93,6 @@ ghp.export_project('google-protobuf', 'lib')
 ghp.asset('python-2.7.zip')
 
 if os.is('macosx') then
-	ghp.asset('protoc-osx.zip')
+	ghp.asset('protoc-osx')
 end
 
