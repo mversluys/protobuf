@@ -90,9 +90,9 @@ ghp.export_includedirs('src')
 ghp.export_project('google-protobuf-lite', 'lib-lite')
 ghp.export_project('google-protobuf', 'lib')
 
-ghp.asset('python-2.7.zip')
+ghp.asset('python-2.7.zip', 'python')
 
 if os.is('macosx') then
-	ghp.asset('protoc-osx')
+	ghp.asset('protoc-osx', 'protoc')
 end
 
